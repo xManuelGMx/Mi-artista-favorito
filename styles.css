@@ -30,7 +30,8 @@ body{
   font-size:20px;
 }
 a{
-  color: white
+  color: white;
+  text-decoration:none;
 }
 h2{
   text-align: center;
@@ -48,4 +49,9 @@ hr{
 table{
   border-collapse: collapse;
   border-color: rgb(229, 248, 53);
+}
+img.album{
+  display: block;
+  margin: auto;
+  margin-bottom: 20lpx;
 }
