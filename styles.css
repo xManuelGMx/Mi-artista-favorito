@@ -1,0 +1,51 @@
+input,div#menu{
+  display: none
+}
+input:checked+div#menu{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+ul.lista{
+  list-style: none;
+}
+div#menu{
+  font-size: 10px;
+}
+h3,li,p,body{
+  margin: 25px;
+}
+body{
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  width: 6in;
+  border: 2px rgba(255, 238, 0, 0.699);
+  border-style: dotted;
+  margin: auto;
+}
+*{
+  font-family: 'Big Shoulders Text', cursive;
+  color: lavender;
+  font-size:20px;
+}
+a{
+  color: white
+}
+h2{
+  text-align: center;
+  color: rgb(229, 248, 53);
+  font-size: 25px
+}
+p, td{
+  background-color: rgba(0, 0, 0, .700);
+  padding: 3mm;
+}
+hr{
+  background-color: rgb(229, 248, 53);
+  height: 1mm
+}
+table{
+  border-collapse: collapse;
+  border-color: rgb(229, 248, 53);
+}
